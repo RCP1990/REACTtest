@@ -1,0 +1,44 @@
+body {
+    
+}
+
+.create{
+    margin-bottom:8px
+}
+
+.board .commentContainer textarea{
+    display:block;
+    margin-bottom:10px
+}
+
+.board .commentContainer .comment{
+    font-size:1.1em;
+    font-weight:500;
+    margin-bottom:10px
+}
+
+.board .commentContainer button{
+    margin-right:6px
+}
+
+button,input,textarea{
+    font:inherit;
+    margin:0
+}
+
+textarea{
+    overflow:auto
+}
+
+[type=reset],[type=submit],button,html [type=button]{
+    -webkit-appearance:button
+}
+
+.commentContainer{
+    background:#eee;
+    border:1px solid #ccc;
+    display:inline-block;
+    margin:8px;
+    padding:8px
+}
+
